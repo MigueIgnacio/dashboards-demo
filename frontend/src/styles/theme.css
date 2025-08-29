@@ -1,0 +1,43 @@
+:root {
+  --fg-bg: #ffffff;
+  --fg-card-border: #f0f0f9;
+  --fg-primary: #454d8c;
+  --fg-accent: #27115b;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background-color: #f8f8fc;
+  color: #1e1e2d;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, .titulo {
+  color: var(--fg-primary);
+  font-weight: 700;
+}
+
+.parent > div {
+  background: var(--fg-bg);
+  border: 2px solid var(--fg-card-border);
+  border-radius: 10px;
+}
+
+.table th {
+  background-color: var(--fg-accent) !important;
+}
+
+button {
+  border: 1px solid #e3e3ee;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #fff;
+}
+button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
