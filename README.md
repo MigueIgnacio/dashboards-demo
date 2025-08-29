@@ -53,6 +53,8 @@ Muestra cómo integrar un **frontend en Vue.js 2** con un **backend en Laravel 1
    cp .env.example .env
    php artisan key:generate
    php artisan serve
+   
+### 🔹 Front (Vue2)
 2.- Ir a la carpeta 'front'
     cd frontend
     npm install
