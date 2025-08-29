@@ -43,4 +43,28 @@ Muestra cómo integrar un **frontend en Vue.js 2** con un **backend en Laravel 1
   - PHP 8.x  
   - Endpoints mockeados con `Route::get` para simular datos reales.
 
+## ⚙️ Instalación y ejecución
+
+### 🔹 Backend (Laravel)
+1. Ir a la carpeta `laravel-backend`:
+   ```bash
+   cd laravel-backend
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   php artisan serve
+2.- Ir a la carpeta 'front'
+    cd frontend
+    npm install
+    npm run dev
+
+    El frontend correrá en: http://127.0.0.1:5173
+
+    👨‍💻 Autor
+    Miguel Contreras
+    👔 Ingeniero en Informática.
+    💻 Experiencia en Vue.js, Laravel, PHP, JavaScript y metodologías ágiles.
+    🚀 Enfoque en desarrollo Front-End, interfaces limpias y funcionales.
+
+
 
