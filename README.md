@@ -49,24 +49,51 @@ Muestra cómo integrar un **frontend en Vue.js 2** con un **backend en Laravel 1
 1. Ir a la carpeta `laravel-backend`:
    ```bash
    cd laravel-backend
+   ```
+2. Instalar dependencias:
+   ```bash
    composer install
+   ```
+3. Copiar archivo de entorno:
+   ```bash
    cp .env.example .env
+   ```
+4. Generar la clave de la aplicación:
+   ```bash
    php artisan key:generate
+   ```
+5. Iniciar el servidor de desarrollo:
+   ```bash
    php artisan serve
-   
-### 🔹 Front (Vue2)
-2.- Ir a la carpeta 'front'
-    cd frontend
-    npm install
-    npm run dev
+   ```
+   El backend correrá en: **http://127.0.0.1:8000**
 
-    El frontend correrá en: http://127.0.0.1:5173
+---
 
-    👨‍💻 Autor
-    Miguel Contreras
-    👔 Ingeniero en Informática.
-    💻 Experiencia en Vue.js, Laravel, PHP, JavaScript y metodologías ágiles.
-    🚀 Enfoque en desarrollo Front-End, interfaces limpias y funcionales.
+### 🔹 Frontend (Vue 2 + Vite)
+1. Ir a la carpeta `frontend`:
+   ```bash
+   cd frontend
+   ```
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Iniciar servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+   El frontend correrá en: **http://127.0.0.1:5173**
+
+---
+
+## 👨‍💻 Autor
+
+**Miguel Contreras**  
+- 👔 Ingeniero en Informática.  
+- 💻 Experiencia en **Vue.js, Laravel, PHP, JavaScript** y metodologías ágiles.  
+- 🚀 Enfoque en **desarrollo Front-End**, interfaces limpias y funcionales.
+
 
 
 
