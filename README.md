@@ -91,8 +91,7 @@ Muestra cómo integrar un **frontend en Vue.js 2** con un **backend en Laravel 1
 
 **Miguel Contreras**  
 - 👔 Ingeniero en Informática.  
-- 💻 Experiencia en **Vue.js, Laravel, PHP, JavaScript** y metodologías ágiles.  
-- 🚀 Enfoque en **desarrollo Front-End**, interfaces limpias y funcionales.
+
 
 
 
